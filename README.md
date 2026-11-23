@@ -8,6 +8,24 @@ Bu çalışmada 4.269 banka müşterisinin kredi başvuru verilerini (`loan_appr
 * **İstatistiksel Test:** `scipy.stats`
 * **Makine Öğrenmesi:** `scikit-learn`
 
+## Veri Seti Değişkenleri
+
+| Değişken Adı | Türkçe Karşılığı / Açıklama |
+| :--- | :--- |
+| `loan_id` | Başvuru kimlik numarası |
+| `no_of_dependents` | Bakmakla yükümlü olunan kişi sayısı |
+| `education` | Eğitim durumu (`Graduate` / `Not Graduate`) |
+| `self_employed` | Kendi işinde çalışma durumu (`Yes` / `No`) |
+| `income_annum` | Yıllık gelir |
+| `loan_amount` | Talep edilen kredi tutarı |
+| `loan_term` | Kredi vadesi (Yıl) |
+| `cibil_score` | CIBIL Kredi Notu (300 - 900 arası) |
+| `residential_assets_value` | Konut varlığı değeri |
+| `commercial_assets_value` | Ticari varlık değeri |
+| `luxury_assets_value` | Lüks varlık (araç, mücevher vb.) değeri |
+| `bank_asset_value` | Banka nakit / mevduat varlığı değeri |
+| `loan_status` | **Hedef Değişken:** Kredi onay durumu (`Approved` / `Rejected`) |
+
 ## Yapılan İşlemler
 
 ### 1. Veri Ön İşleme ve Temizlik
