@@ -45,7 +45,7 @@ Bu çalışmada 4.269 banka müşterisinin kredi başvuru verilerini (`loan_appr
 * **Eğitim (Train) Doğruluğu:** %98.48
 * **Test (Sınav) Doğruluğu:** %97.54 (854 başvuruda 833 doğru tahmin)
 * **Eğitim - Test Farkı:** %0.94
-* Modelin kararlarında en etkili değişkenler `cibil_score` (~%82) ve `loan_term` (~%10) oldu.
+* Modelin kararlarında en etkili değişkenler `cibil_score` (yaklaşık %82) ve `loan_term` (yaklaşık %10) oldu.
 
 ## Dosyalar
 * `banka_kredi_onay_tahmini.ipynb`: Analiz, görselleştirme ve modelleme kodlarının tamamı.
